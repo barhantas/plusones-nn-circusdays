@@ -1,13 +1,14 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
-import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
-import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
-import ContactContent from "../../content/ContactContent.json";
+// import MiddleBlockContent from "../../content/MiddleBlockContent.json";
+// import AboutContent from "../../content/AboutContent.json";
+// import MissionContent from "../../content/MissionContent.json";
+// import ProductContent from "../../content/ProductContent.json";
+// import ContactContent from "../../content/ContactContent.json";
+import { SvgIcon } from "../../common/SvgIcon";
 
-const Contact = lazy(() => import("../../components/ContactForm"));
-const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
+// const Contact = lazy(() => import("../../components/ContactForm"));
+// const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -21,15 +22,27 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="main-page-1.svg"
         id="intro"
       />
-      <MiddleBlock
+      {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-      />
-      <ContentBlock
+      /> */}
+
+      <p id="journey" />
+      <SvgIcon src={"feature-list-white.png"} width="100%" height="100%" />
+
+      <p style={{ margin: "120px 0" }} />
+      <SvgIcon src={"guide.png"} width="100%" height="100%" />
+      <p id="social" />
+      <SvgIcon src={"testimonials.png"} width="100%" height="100%" />
+      <SvgIcon src={"last-section.png"} width="100%" height="100%" />
+
+      <p style={{ margin: "120px 0" }} />
+
+      {/* <ContentBlock
         direction="left"
         title={AboutContent.title}
         content={AboutContent.text}
@@ -55,7 +68,7 @@ const Home = () => {
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
-      />
+      /> */}
     </Container>
   );
 };

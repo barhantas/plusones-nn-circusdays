@@ -33,21 +33,37 @@ const Header = ({ t }: { t: TFunction }) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
+        {/* <CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <Span>{t("About")}</Span>
+        </CustomNavLinkSmall> */}
+        <CustomNavLinkSmall onClick={() => scrollTo("journey")}>
+          <Span>{t("Journey")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("social")}>
+          <Span>{t("Social & Testimonials")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+        <CustomNavLinkSmall onClick={() => {
+          alert("ahoooy!");
+        }}>
+          <Span>{t("Login")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall
-          style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+        {/* <CustomNavLinkSmall
+          style={{ width: "180px", margin: "0.5rem 0.5rem" }}
+          onClick={() => scrollTo("join")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button>{t("Join")}</Button>
+          </Span>
+        </CustomNavLinkSmall> */}
+        <CustomNavLinkSmall
+          style={{ width: "180px", margin: "0.5rem 0.5rem" }}
+          onClick={() => {
+            alert("ahoooy! sign-up");
+            // scrollTo("signup")
+          }}
+        >
+          <Span>
+            <Button>{t("Sign Up")}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>

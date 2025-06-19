@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Empowering Partners for a Brighter Future",
+  "text": "At +1, we understand the challenges faced by partners of international employees. Our mission is to provide support, resources, and a welcoming community to help you thrive in your new environment.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Learn More"
     },
     {
-      "title": "Learn more",
+      "title": "Sign Up",
       "color": "#fff"
     }
   ]
