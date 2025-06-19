@@ -15,9 +15,11 @@ import {
   Outline,
   Span,
 } from "./styles";
+import { useHistory } from "react-router-dom";
 
 const Header = ({ t }: { t: TFunction }) => {
   const [visible, setVisibility] = useState(false);
+    const history = useHistory();
 
   const toggleButton = () => {
     setVisibility(!visible);
@@ -58,7 +60,8 @@ const Header = ({ t }: { t: TFunction }) => {
         <CustomNavLinkSmall
           style={{ width: "180px", margin: "0.5rem 0.5rem" }}
           onClick={() => {
-            alert("ahoooy! sign-up");
+            history.push("/find-job");
+            // alert("ahoooy! sign-up");
             // scrollTo("signup")
           }}
         >

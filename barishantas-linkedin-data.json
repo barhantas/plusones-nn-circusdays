@@ -1,0 +1,60 @@
+[
+  {
+    "fullName": "Baris Hantas",
+    "first_name": "Baris",
+    "last_name": "Hantas",
+    "location": "The Hague, South Holland, Netherlands",
+    "about": "Software Engineer",
+    "experience": [
+      {
+        "company_name": "NN Group",
+        "company_image": "https://media.licdn.com/dms/image/v2/C4D0BAQG7m47e5N_14g/company-logo_100_100/company-logo_100_100/0/1630501457108/nn_group_logo?e=2147483647&v=beta&t=dzhAiAot8RM1oLaRbV3CO_f-Zr66kGOe94yvT6_8qhA"
+      }
+    ],
+    "education": [],
+    "articles": [],
+    "description": {
+      "description1": "NN Group",
+      "description1_link": "https://nl.linkedin.com/company/nn-group?trk=public_profile_topcard-current-company",
+      "description2": "Anadolu University",
+      "description2_link": "https://tr.linkedin.com/school/anadoluuniv/?trk=public_profile_topcard-school",
+      "description3": "Portfolio",
+      "description3_link": "https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fhantasbaris%2Eweb%2Eapp%2F&urlhash=uvYi&trk=public_profile_topcard-website"
+    },
+    "volunteering": [],
+    "certification": [
+      {
+        "company_image": "https://static.licdn.com/aero-v1/sc/h/cs8pjfgyw96g44ln9r7tct85f",
+        "certification": "Fransızca A seviyesi",
+        "company_name": "-",
+        "issue_date": "",
+        "credential_id": ""
+      }
+    ],
+    "recommendations": [],
+    "publications": [],
+    "courses": [],
+    "languages": [
+      {
+        "name": "Türkçe",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "İngilizce",
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "Fransızca",
+        "level": "Elementary proficiency"
+      },
+      {
+        "name": "Almanca",
+        "level": "Elementary proficiency"
+      }
+    ],
+    "organizations": [],
+    "projects": [],
+    "awards": [],
+    "score": []
+  }
+]
