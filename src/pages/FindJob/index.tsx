@@ -103,6 +103,18 @@ const FindJob = () => {
         <Col span={12}>
           <div style={{ marginBottom: 80 }} />
           <SvgIcon src={"loading-combi.png"} width="auto" height="240px" />
+          <div style={{ marginBottom: 100 }} />
+
+          <div style={{ marginLeft: 24 }}>
+            <Button
+              onClick={() => {
+                window.scrollTo({ top: 3600, behavior: "smooth" });
+                // scrollTo("other-ind-jobs");
+              }}
+            >
+              Next
+            </Button>
+          </div>
         </Col>
         <Col span={12}>
           <h6>Look, what we have here!</h6>
@@ -127,12 +139,16 @@ const FindJob = () => {
       </Row>
 
       <ContentBlock
-        direction="left"
+        direction="right"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
+        icon="crazy-one.jpeg"
+        id="other-ind-jobs"
       />
+
+      <div style={{ marginTop: -240, marginBottom: 320 }}>
+        <Button onClick={() => {}}>Join Community</Button>
+      </div>
     </Container>
   );
 };
