@@ -64,8 +64,32 @@ const ContentBlock = ({
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
+              {id !== "other-ind-jobs" ? (
+                <h6>{t(title)}</h6>
+              ) : (
+                <div style={{ display: "flex", alignItems: "flex-end" }}>
+                  <h6>{t(title)}</h6>
+                  <div
+                    style={{
+                      marginLeft: "auto",
+                      borderRadius: "50%",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <SvgIcon
+                      src={"crazy-one.jpeg"}
+                      width="120px"
+                      height="auto"
+                    />
+                  </div>
+                </div>
+              )}
+
               <Content>{t(content)}</Content>
+              {id === "other-ind-jobs" && (
+                <Button onClick={() => {}}>Join Community</Button>
+              )}
+
               {direction === "right" ? (
                 <ButtonWrapper>
                   {typeof button === "object" &&

@@ -142,13 +142,16 @@ const FindJob = () => {
         direction="right"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="crazy-one.jpeg"
+        icon="ind-job-pool.png"
+        // icon="crazy-one.jpeg"
         id="other-ind-jobs"
       />
 
-      <div style={{ marginTop: -240, marginBottom: 320 }}>
+      {/* <div style={{ marginTop: -240, marginBottom: 320 }}>
+        <SvgIcon src={"crazy-one.jpeg"} width="auto" height="240px" />
+
         <Button onClick={() => {}}>Join Community</Button>
-      </div>
+      </div> */}
     </Container>
   );
 };
