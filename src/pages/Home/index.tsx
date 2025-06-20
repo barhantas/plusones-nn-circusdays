@@ -18,16 +18,13 @@ const Home = () => {
         icon="main-page-1.svg"
         id="intro"
       />
-
       <p id="journey" />
       <SvgIcon src={"feature-list-white.png"} width="100%" height="100%" />
-
       <p style={{ margin: "120px 0" }} />
       <SvgIcon src={"guide.png"} width="100%" height="100%" />
       <p id="social" />
       <SvgIcon src={"testimonials.png"} width="100%" height="100%" />
       <SvgIcon src={"last-section.png"} width="100%" height="100%" />
-
       <p style={{ margin: "120px 0" }} />
     </Container>
   );

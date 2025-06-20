@@ -1,4 +1,4 @@
-import { lazy, useState } from "react";
+import { Fragment, lazy, useState } from "react";
 import Input from "../../common/Input";
 import { Button } from "../../common/Button";
 
@@ -120,7 +120,7 @@ const FindJob = () => {
           <h6>Look, what we have here!</h6>
           {recommendedJobs.map((job) => {
             return (
-              <>
+              <Fragment key={job.job_id}>
                 <div key={job.job_id} style={{ display: "flex" }}>
                   <SvgIcon src="nn-logo.png" width="60px" height="60px" />
                   <div style={{ marginLeft: 16 }}>
@@ -132,7 +132,7 @@ const FindJob = () => {
                   </div>
                 </div>
                 <Divider />
-              </>
+              </Fragment>
             );
           })}
         </Col>
